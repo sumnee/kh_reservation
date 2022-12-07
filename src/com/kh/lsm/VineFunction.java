@@ -27,7 +27,7 @@ public class VineFunction {
 	public void reservation() {
 		Scanner sc = new Scanner(System.in);
 		System.out.println();
-		System.out.println("~~~< 예약자 정보 입력 >~~~");
+		System.out.println("~~~~< 예약자 정보 입력 >~~~~");
 		System.out.print("이름 >>");
 		String name = sc.next();
 		System.out.print("연락처 >>");
