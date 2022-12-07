@@ -49,7 +49,7 @@ public class VineFunction {
 	public void check() {
 		Scanner sc = new Scanner(System.in);
 		Random ran = new Random();
-		int com = ran.nextInt(2);
+		int com = ran.nextInt();
 		System.out.println();
 		System.out.println("~~~< 예약 정보 확인 >~~~");
 		System.out.print("예약자 이름을 입력해주세요 >> ");
